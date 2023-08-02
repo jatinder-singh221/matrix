@@ -108,15 +108,15 @@ export default function index() {
           </label>
         </form>
         <section className={styles.Links}>
-          <Link href={"#"} className={styles.Anchors}>
-            <Image src="/figma.svg" width={30} height={30} alt="figma"/>
-            <p>Get Figma File</p>
-          </Link>
-          <Link href={"#"} className={styles.Anchors}>
+            <a href={"https://www.figma.com/community/file/1268549087432176509/matrix-icons"} className={styles.Anchors} target="_blank" rel="noopener noreferrer">
+                <Image src="/figma.svg" width={30} height={30} alt="figma" />
+                <p>Get Figma File</p>
+            </a>
+          <a href={"https://github.com/jatinder-singh221/matrix-icons-react"} className={styles.Anchors} target="_blank" rel="noopener noreferrer">
             <Image src="/github.svg" width={30} height={30} alt="github" />
             <p>React Docs</p>
-          </Link>
-          <Link href={"#"} className={styles.Anchors}>
+          </a>
+          <Link href={"https://github.com/jatinder-singh221/matrix-icons-react-native"} className={styles.Anchors} target="_blank" rel="noopener noreferrer">
             <Image src="/github.svg" width={30} height={30} alt="nativegithub" />
             <p>React-native Docs</p>
           </Link>
